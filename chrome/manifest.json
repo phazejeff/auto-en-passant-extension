@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Auto En Passant",
+  "version": "0.1",
+  "description": "anti brick",
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "permissions": ["storage", "scripting", "webNavigation"],
+  "host_permissions": ["https://*.lichess.org/"],
+  "action": {
+    "default_popup": "src/popup.html",
+    "default_icon": {
+      "16": "/icons/anarchy-chess16.png",
+      "32": "/icons/anarchy-chess32.png",
+      "48": "/icons/anarchy-chess48.png",
+      "128": "/icons/anarchy-chess128.png"
+    }
+  },
+  "icons": {
+    "16": "/icons/anarchy-chess16.png",
+    "32": "/icons/anarchy-chess32.png",
+    "48": "/icons/anarchy-chess48.png",
+    "128": "/icons/anarchy-chess128.png"
+  }
+}
