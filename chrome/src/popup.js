@@ -19,7 +19,7 @@ function checkKey(API_KEY) {
 
 // API Key
 chrome.storage.sync.get(['API_KEY'], (result) => {
-    if (result.API_KEY == 'undefined') {
+    if (result.API_KEY == null) {
         document.getElementById('api-key').value = ""
     } else {
         document.getElementById('api-key').value = result.API_KEY
