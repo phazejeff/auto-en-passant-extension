@@ -2,6 +2,7 @@
 A chrome/firefox extension that automatically plays en passant if it's avaliable
 
 Chrome: https://chrome.google.com/webstore/detail/auto-en-passant/egcfjkjbfiffcoebkejbhdbgohfbgbch
+
 Firefox: https://addons.mozilla.org/en-US/firefox/addon/auto-en-passant/
 
 This includes the [chess.js library](https://github.com/jhlywa/chess.js/) by jhlywa because browsers seem to get very angry when you try to run code from an external source via an extension
